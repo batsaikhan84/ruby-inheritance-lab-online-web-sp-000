@@ -8,6 +8,7 @@ class Teacher
   end
   
   def teach 
-    
+    KNOWLEDGE[rand(KNOWLEDGE.count)]
+  end
   
 end
